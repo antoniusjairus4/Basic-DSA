@@ -26,6 +26,7 @@ int main()
 
     for(int i = 0; i < n; i++){
         int val;
+        cout << "Enter the value of the nodes";
         cin >> val;
 
         Node *new_Node = new Node(val);
