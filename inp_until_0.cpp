@@ -29,7 +29,6 @@ int main()
         cin >> val;
 
         if(val == 0){
-            cout << "You are exiting the iputs" << endl;
             zero = false;
             break;
         }
