@@ -16,9 +16,9 @@ int main() {
     MemoryUtils utils;
     int x = 10, y = 20;
 
-    cout << "Before Swap : x = " << x << ", y = " << y << endl;
+    cout << "Before Swapping : x = " << x << ", y = " << y << endl;
     utils.swap(&x, &y);
-    cout << "After Swap : x = " << x << ", y = " << y << endl;
+    cout << "After Swapping : x = " << x << ", y = " << y << endl;
 
     return 0;
 }
