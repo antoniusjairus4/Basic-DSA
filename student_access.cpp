@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 class data {
@@ -39,7 +40,7 @@ int main() {
 
         for (int i = 1; i < n + 1; i++) 
         {
-            cout << "\nEnter details for student " << i << endl;
+            cout << endl << "Enter details for student " << i << endl;
             cin.ignore();
 
             cout << "Enter Name: ";
