@@ -48,7 +48,9 @@ bool valid(string s){
     Stack st(s.length());
 
     for(char c : s){
-        
+        if(c == '{' || c == '(' ||  c == '['){
+            st.push(c);
+        }
     }
 }
 
