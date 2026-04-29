@@ -49,12 +49,12 @@ bool valid(string s){
 
     for(char c : s){
 
-        if(c != '(' || c != ')' || c != '['
+        if(c != '(' || c != ')' || c != '[' ||
            c != ']' || c != '{' || c!= '}'){
             cout << "Enter valid brackets";
             return 0;
            }
-           
+
         if(c == '{' || c == '(' ||  c == '['){
             st.push(c);
         }
