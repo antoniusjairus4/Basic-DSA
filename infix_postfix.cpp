@@ -26,7 +26,25 @@ class Stack{
 
         void pop()
         {
-            
+            if(top == -1){
+                cout << "Stack Underflow" << endl;
+                return;
+            }
+
+            top--;
+        }
+
+        char peek(){
+            if(top == -1){
+                cout << "Stack is empty;" << endl;
+                return;
+            }
+
+            return arr[top];
+        }
+
+        bool empty(){
+            return top = -1;
         }
 };
 
