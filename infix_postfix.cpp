@@ -4,7 +4,7 @@
 using namespace std;
 
 class Stack{
-    int *arr;
+    char *arr;
     int top;
     int capacity;
 
@@ -44,7 +44,7 @@ class Stack{
         }
 
         bool empty(){
-            return top = -1;
+            return top == -1;
         }
 };
 
@@ -64,7 +64,7 @@ void convert(string s){
     string res = "";
 
     for(char c : s){
-        if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= 0 && c <= 9)){
+        if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9')){
             res += c;
         }
 
@@ -101,6 +101,7 @@ int main()
     int n;
     cout << "Enter the number of the elements in the stack : ";
     cin >> n;
+    cin.ignore();
 
     Stack st(n);
 
