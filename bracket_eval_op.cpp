@@ -60,9 +60,15 @@ bool valid(string s){
             char top = st.peek();
             st.pop();
 
-            
+            if((c == ')' && top != '(') || 
+               (c == ']' && top != '[') || 
+               (c == '}' && top != '{')){
+                return false;
+               }
         }
     }
+
+    return st.empty();
 }
 
 int main()
