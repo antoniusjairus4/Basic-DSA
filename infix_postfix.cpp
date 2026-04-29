@@ -59,5 +59,15 @@ int precedence (char c)
 
 int main()
 {
+    int n;
+    cout << "Enter the number of the elements in the stack : ";
+    cin >> n;
+
+    Stack st(n);
+
+    string s;
+    cout << "Enter the infix value : ";
+    getline(cin, s);
+
     return 0;
 }
