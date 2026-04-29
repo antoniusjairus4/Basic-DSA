@@ -11,7 +11,7 @@ class Stack{
     public:
         Stack(int size){
             capacity = size;
-            arr = new int [capacity];
+            arr = new char [capacity];
             top = -1;
         }
 
