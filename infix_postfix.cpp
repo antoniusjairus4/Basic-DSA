@@ -48,8 +48,8 @@ class Stack{
         }
 };
 
-int precedence (char c)
-{
+int precedence (char c){
+
     switch (c){
         case '+' : case '-' : return 1;
         case '*' : case '%' : return 2;
@@ -57,6 +57,44 @@ int precedence (char c)
     }
 }
 
+void convert(string s){
+
+    Stack st(s.length());
+    string res = "";
+
+    for(char c : s){
+        if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= 0 && c <= 9)){
+            res += c;
+        }
+
+        else if(c == '('){
+            st.push(c);
+        }
+
+        else if(c == ')'){
+            while ((st.peek() != '(') && !st.empty()){
+                res += st.peek();
+                st.pop();
+            }
+            st.pop();
+        }
+
+        else{
+            while(!(st.empty()) && precedence(st.peek()) >= precedence(c)){
+                res += st.peek();
+                st.pop();
+            }
+            st.push(c);
+        }
+    }
+
+    while(!(st.empty())){
+        res += st.peek();
+        st.pop();
+    }
+
+    cout << "The Postfix expression is: " << res << endl;
+}
 int main()
 {
     int n;
@@ -68,6 +106,8 @@ int main()
     string s;
     cout << "Enter the infix value : ";
     getline(cin, s);
+
+    convert (s);
 
     return 0;
 }
