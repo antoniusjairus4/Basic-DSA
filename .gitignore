@@ -1,0 +1,14 @@
+# Ignore executables
+run
+a.out
+*.out
+
+# Object files
+*.o
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
