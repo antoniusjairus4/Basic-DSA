@@ -37,7 +37,7 @@ class Stack{
         char peek(){
             if(top == -1){
                 cout << "Stack is empty;" << endl;
-                return;
+                return '\0';
             }
 
             return arr[top];
