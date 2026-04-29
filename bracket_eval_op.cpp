@@ -48,6 +48,13 @@ bool valid(string s){
     Stack st(s.length());
 
     for(char c : s){
+
+        if(c != '(' || c != ')' || c != '['
+           c != ']' || c != '{' || c!= '}'){
+            cout << "Enter valid brackets";
+            return 0;
+           }
+           
         if(c == '{' || c == '(' ||  c == '['){
             st.push(c);
         }
@@ -73,5 +80,21 @@ bool valid(string s){
 
 int main()
 {
+    int n;
+    cout << "Enter the number of elements to be in the Stack";
+    cin >> n;
+
+    string s;
+    cout << "Enter the Brackets the valid ones are (, { , [, ), }, ]";
+    getline(cin, s);
+
+    Stack st(n);
+
+    if(valid(s)){
+        cout << "The entered brackets are valid";
+    }
+    else{
+        cout << "The brackets are'nt valid";
+    }
     return 0;
 }
