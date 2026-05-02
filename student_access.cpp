@@ -22,7 +22,7 @@ class operation : public data {
             else if (marks > 60 && marks < 80) {
                 cout << "Good";
             }
-            else if (marks >= 80 && marks < 100) {
+            else if (marks >= 80 && marks < 90) {
                 cout << "Distinction";
             }
             else if (marks == 100) {
