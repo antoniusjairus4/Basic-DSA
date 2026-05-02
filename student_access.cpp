@@ -26,7 +26,7 @@ class operation : public data {
                 cout << "Distinction";
             }
             else if (marks == 100) {
-                cout << "Centum aahhhhh";
+                cout << "Centum aahhhhhh";
             }
         }
 };
