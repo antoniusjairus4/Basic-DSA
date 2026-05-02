@@ -40,7 +40,7 @@ int main() {
 
         for (int i = 1; i < n + 1; i++) 
         {
-            cout << endl << "Enter details for student " << i << endl;
+            cout << endl << "Enter the details for student " << i << endl;
             cin.ignore();
 
             cout << "Enter Name: ";
