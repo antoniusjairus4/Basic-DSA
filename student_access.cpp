@@ -17,7 +17,7 @@ class operation : public data {
                 cout << "Arrear brooo";
             }
             else if (marks >= 50 && marks <= 60) {
-                cout << "Pass";
+                cout << "Pass uhh";
             }
             else if (marks > 60 && marks < 80) {
                 cout << "Good";
