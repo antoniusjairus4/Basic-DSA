@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 using namespace std;
 
@@ -12,11 +13,7 @@ int partition(int arr[], int low, int high) {
     for(int j = low; j < high; j++) {
         if(arr[j] < pivot) {
             i++;
-            
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            
+            swap(arr[i], arr[j]);
             swaps++;
         }
     }
