@@ -31,7 +31,8 @@ int main()
     int result = linear_search(n, target, arr);
     if (result != -1) {
         cout << "Element found at index: " << result << endl;
-    } else {
+    } 
+    else {
         cout << "Element not found in the array." << endl;
     }
 
