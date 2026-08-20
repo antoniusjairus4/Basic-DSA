@@ -20,13 +20,15 @@
 ## 📌 Mission Statement
 This repository serves as a meticulously engineered blueprint for mastering foundational **Data Structures**, complex **Algorithms**, and structural **Object-Oriented Programming (OOP)** patterns. Every implementation here prioritizes raw algorithmic efficiency, structural clarity, and deep mechanical transparency—avoiding high-level abstractions in favor of understanding the underlying engineering.
 
-## 🗺 System Architecture
-The repository is organized to reflect the progression from basic computations to complex system design:
+## 🗺 System Architecture & Directory Map
+The repository is structured to reflect the progression from fundamental logic to complex algorithmic paradigms and software architecture:
 
-*   **Algorithm & Design:** Foundational math, brute force, and recursion analysis.
-*   **DSA:** Linked structures, OOP systems, and linear containers (queues/stacks) built with raw pointers.
-*   **Interview_Questions:** Curated sets for real-world interview preparation and my internal prep logic.
-*   **LeetCode:** A collection of competitive programming solutions bridging theory and practice.
+*   📁 **Algorithm & Design:** Core paradigms including Divide & Conquer, Dynamic Programming, Greedy Techniques, Brute Force, and Sorting & Searching.
+*   📁 **Classic Coding:** Foundational pattern generation, bitwise manipulations, and computational math tricks.
+*   📁 **DSA:** Raw-pointer linear structures (Linked Lists, Stacks, Queues) and associative containers (Maps).
+*   📁 **OOP:** Structural implementation of the 4 core pillars: Abstraction, Encapsulation, Inheritance, and Polymorphism.
+*   📁 **Interview_Questions:** High-frequency problem breakdowns categorized by live technical interview challenges and intensive interview prep sets.
+*   📁 **LeetCode:** Optimized solutions for competitive programming benchmarks bridging theory and production logic.
 
 ---
 
@@ -36,25 +38,29 @@ The repository is organized to reflect the progression from basic computations t
 | :--- | :---: | :--- |
 | **Basic Algorithms & Math** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
 | **Brute Force Paradigms** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
-| **Recursion Analysis** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
-| **Object-Oriented Systems** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Divide & Conquer** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Greedy Techniques** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Dynamic Programming (DP)** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Recursion & Analysis** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Sorting & Searching** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Classic Coding & Logic Tricks** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
 | **Linked Data Structures** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
-| **Linear Queues & Stacks** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
-| **Advanced Trees (BST, AVL)** | `IN PROGRESS` | ▓▓▓▓░░░░░░ 40% |
-| **Graph Theory & Traversals** | `UPCOMING` | ░░░░░░░░░░ 0% |
-| **Dynamic Programming (DP)** | `UPCOMING` | ░░░░░░░░░░ 0% |
+| **Linear Queues, Stacks & Maps** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Object-Oriented Systems (4 Pillars)** | `COMPLETED` | ▓▓▓▓▓▓▓▓▓▓ 100% |
+| **Interview Preparation Sets** | `IN PROGRESS` | ▓▓▓▓▓▓▓░░░ 70% |
+| **LeetCode Problem Suite** | `IN PROGRESS` | ▓▓▓▓▓▓░░░░ 60% |
 
 ---
 
 ## 🧠 Competitive Programming & LeetCode Journey
-My journey into competitive programming is driven by a focus on "Hard" problems and algorithmic consistency. 
+My journey into competitive programming is driven by mastering patterns across linear containers, string manipulation, linked nodes, and recursive tree generation.
 
 ### Current Statistics
-| Difficulty | Problems Solved |
-| :--- | :---: |
-| 🟢 Easy | 5 |
-| 🟡 Medium | 3 |
-| 🔴 Hard | 0 |
+| Difficulty | Solved Count | Problem References |
+| :--- | :---: | :--- |
+| 🟢 **Easy** | **4** | `palindrome.cpp`, `reversing_number.cpp`, `two_sum.cpp`, `brackets_evaluator.cpp` |
+| 🟡 **Medium** | **4** | `add_two_numbers.cpp`, `array_to_BST.cpp`, `long_substring.cpp`, `remove_nth_Node.cpp` |
+| 🔴 **Hard** | **0** | *Targeting Graph / Advanced DP suites next* |
 
 > **Mentor Note:** I once hated coding, but thanks to my DSA mentor, Sharika mam, I have developed a deep passion for the craft. If you are reading this and struggling with "Hard" level problems, let’s connect—I am actively documenting every trick and strategy I uncover to master these challenges.
 
