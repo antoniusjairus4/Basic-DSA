@@ -62,8 +62,6 @@ My journey into competitive programming is driven by mastering patterns across l
 | 🟡 **Medium** | **4** | `add_two_numbers.cpp`, `array_to_BST.cpp`, `long_substring.cpp`, `remove_nth_Node.cpp` |
 | 🔴 **Hard** | **0** | *Targeting Graph / Advanced DP suites next* |
 
-> **Mentor Note:** I once hated coding, but thanks to my DSA mentor, Sharika mam, I have developed a deep passion for the craft. If you are reading this and struggling with "Hard" level problems, let’s connect—I am actively documenting every trick and strategy I uncover to master these challenges.
-
 ---
 
 ## ⚡ Why C++ For Deep Engineering?
